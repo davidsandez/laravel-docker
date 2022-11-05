@@ -1,4 +1,3 @@
-version: "3.7"
 
 services:
 ### PHP Container #########################################
@@ -35,10 +34,10 @@ services:
     image: postgres:11
     restart: always
     environment:
-      POSTGRES_DB: laravel
-      POSTGRES_USER: laravel-user
-      POSTGRES_PASSWORD: secret
-      PGPASSWORD: secret
+      POSTGRES_DB: palmasaludip_database
+      POSTGRES_USER: palmasalud
+      POSTGRES_PASSWORD: zVT0bNWGoUwlg516kDiZN8APNtlRPRvz
+      PGPASSWORD: zVT0bNWGoUwlg516kDiZN8APNtlRPRvz
     ports:
       - "5432:5432"
     volumes:
